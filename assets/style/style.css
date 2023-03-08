@@ -1,0 +1,374 @@
+@import url("https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "MuseoModerno", cursive;
+}
+
+#main {
+  width: 100%;
+  height: 100vh;
+  background: url(/assets/img/Background/2.png) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#main header {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#main header .logo img {
+  max-width: 80px;
+}
+#main header #nave li {
+  display: inline-block;
+  margin: 20px;
+  font-size: 21px;
+}
+#main header #nave li a {
+  color: #fff;
+  text-decoration: none;
+}
+#main header .social {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#main header .social img {
+  width: 100%;
+  max-width: 40px;
+  cursor: pointer;
+}
+#main #main-page {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background: url(/assets/img/Background/2.png) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#main #main-page img {
+  width: 100%;
+  max-width: 500px;
+}
+#main #main-page .main-text h2 {
+  color: #fff;
+  font-size: 50px;
+}
+#main #main-page .main-text h1 {
+  color: #FF7700;
+  font-size: 60px;
+}
+
+#caract {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+#caract img {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 100px;
+}
+
+#seizinho {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#seizinho .seizinho-child-01 img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 100px;
+}
+#seizinho .seizinho-child-02 {
+  background: #FF7700;
+  padding: 20px 30px;
+  border-radius: 30px;
+  color: #fff;
+}
+#seizinho .seizinho-child-02 h2 {
+  font-size: 30px;
+}
+#seizinho .seizinho-child-02 h1 {
+  font-size: 40px;
+  color: #1D1D5D;
+  margin-top: 10px;
+}
+#seizinho .seizinho-child-02 li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+#seizinho .seizinho-child-02 li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#caract-02 {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+#caract-02 .caract-02-child {
+  width: 300px;
+  text-align: center;
+  padding: 50px 30px;
+  background: #A7C128;
+  color: #fff;
+  border-radius: 20px;
+}
+
+#sempapel {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1D1D5D;
+  color: #fff;
+  padding: 30px 50px;
+  border-radius: 20px;
+}
+#sempapel img {
+  width: 100%;
+  max-width: 400px;
+}
+#sempapel h2 {
+  font-size: 25px;
+}
+#sempapel h1 {
+  font-size: 35px;
+}
+#sempapel p {
+  font-size: 20px;
+}
+
+#noticias {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#noticias .noticias-child-01 {
+  display: grid;
+  gap: 10px;
+}
+#noticias .noticias-child-01 img {
+  width: 100%;
+  max-width: 550px;
+  border-radius: 20px;
+}
+#noticias .noticias-child-01 span {
+  font-size: 25px;
+}
+#noticias .noticias-child-02 {
+  background: #FF7700;
+  color: #fff;
+  padding: 20px 30px;
+  border-radius: 20px;
+}
+#noticias .noticias-child-02 .social {
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+}
+#noticias .noticias-child-02 img {
+  width: 100%;
+  max-width: 50px;
+}
+
+#coopy {
+  margin-top: 100px;
+  padding-bottom: 20px;
+  background: #FF7700;
+}
+#coopy .coopy-grid-pai {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  color: #f5f5f5;
+  font-family: "MuseoModerno", cursive;
+  font-size: 25px;
+}
+#coopy .coopy-grid-pai .coopy-grid-01 {
+  margin-top: 50px;
+  display: grid;
+  gap: 50px;
+}
+#coopy .coopy-grid-pai .coopy-grid-01 .coopy-grid-01-text div {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#coopy .coopy-grid-pai .social img {
+  width: 100%;
+  max-width: 50px;
+}
+
+@media (max-width: 1170px) {
+  #main-page {
+    display: flex !important;
+  }
+  #main-page img {
+    max-width: 300px !important;
+  }
+  .main-text h2, .main-text h1 {
+    font-size: 3rem !important;
+  }
+  #caract {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  #seizinho .img {
+    max-width: 34rem !important;
+    padding-right: 1rem;
+  }
+  #caract-02 {
+    width: max-content !important;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #sempapel {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+  #sempapel .sempapel {
+    max-width: 20rem;
+  }
+  #sempapel img {
+    max-width: 20rem;
+  }
+  #noticias {
+    display: flex;
+    flex-direction: column;
+  }
+  #coopy {
+    display: flex;
+  }
+  #coopy .logo {
+    margin: auto;
+  }
+  #coopy .coopy-grid-pai {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #coopy span {
+    font-size: 20px;
+  }
+  #coopy .social img {
+    width: 20px !important;
+  }
+}
+@media (max-width: 760px) {
+  header .social {
+    display: none !important;
+  }
+  header #nave {
+    position: absolute;
+    background-color: #FF7700;
+    right: 50px;
+    top: 70px;
+    border-radius: 30px;
+    width: 50%;
+    text-align: center;
+    display: none;
+  }
+  header #nave ul {
+    display: flex;
+    flex-direction: column;
+  }
+  header .one, header .two, header .three {
+    width: 40px;
+    height: 2px;
+    margin-top: 6px;
+    padding-top: 5px;
+    background-color: #ffffff;
+    margin-right: 2rem;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .active {
+    display: block !important;
+  }
+  .move1 {
+    transform: rotate(45deg) translate(7px, 7px);
+  }
+  .move2 {
+    opacity: 0;
+  }
+  .move3 {
+    transform: rotate(-45deg) translate(7px, -10px);
+  }
+}
+@media (max-width: 650px) {
+  #main-page .main-text h1, #main-page .main-text h2 {
+    font-size: 2.5rem !important;
+  }
+  #seizinho {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 3rem;
+  }
+  #seizinho .seizinho-child-01 {
+    width: 15rem;
+  }
+  #seizinho .seizinho-child-02 h1, #seizinho .seizinho-child-02 h2 {
+    font-size: 1.4rem;
+  }
+  #caract-02 {
+    display: flex;
+    flex-direction: column;
+  }
+  #caract-02 .caract-02-child {
+    width: 200px !important;
+    text-align: center;
+    align-self: center !important;
+  }
+  #caract-02 .caract-02-child h1 {
+    text-align: center;
+    font-size: 20px;
+  }
+  #coopy .coopy-grid-pai span {
+    font-size: 15px;
+  }
+}
+@media (max-width: 530px) {
+  #main-page {
+    display: flex;
+    flex-direction: column;
+  }
+  #main-page .main-text h1, #main-page .main-text h2 {
+    font-size: 2rem !important;
+    text-align: center;
+  }
+}/*# sourceMappingURL=style.css.map */
